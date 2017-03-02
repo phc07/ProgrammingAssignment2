@@ -20,8 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## The function will solve the created matrix object and return inverse matrix
-## 1st will look for any solved inverse matrix exists and return from cache if exist, or it will solve the inverse
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         invmat <- x$getinvmat()
